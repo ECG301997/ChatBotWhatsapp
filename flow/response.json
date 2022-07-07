@@ -1,0 +1,135 @@
+{
+    "DEFAULT":{
+        "replyMessage":[
+            "La opción seleccionada no es correcta, para regresar al menú principal ",
+            "por favor escriba la palabra menú"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_1":{
+        "replyMessage":[
+            "Bienvenidos al chat de ingenieria electrica\n",
+            "Seleccione la opción que más se acerque a su solicitud\n",
+            "1.*Calendario academico*\n",
+            "2.*Inscripciones Saber Pro*\n",
+            "3.*Certificados*\n",
+            "4.*Contenidos curriculares programa Ingeniera Eléctrica*\n",
+            "5.*Practicas universitarias*\n",
+            "6.*Cancelaciones*\n",
+            "7.*Radicación de solicitudes*\n",
+            "8.*Reglamento Estudiantil*"
+
+        ],
+        "media":"",
+        "trigger":null,
+        "actions":{
+            "title":"¿Que solicitud debe realizar?",
+            "message":"Recuerda que en caso de no encontrar la solicitud debe realizar una petición al correo",
+            "footer":"Gracias"
+        }
+    },
+    "STEP_2":{
+        "replyMessage":[
+            "En el siguiente link podrá encontrar las fechas del calendario academico:", 
+            "https://www2.utp.edu.co/registro/calendario-academico/542/modificacin-calendario-acadmico-para-el-primer-semestre-acadmico-de-2022-para-todos-los-programas-excepto-medicina-y-tecnologa-en-produccin-forestal-tercera-cohorte\n\n",
+            "para regresar al menú principal por favor escriba la palabra *menú*"
+        ],
+        "media":"",
+        "trigger":null
+    },
+    "STEP_3":{
+        "replyMessage":[
+            "Se le informa que si desea realizar las pruebas saber-pro debe inscribirse en 2023\n",
+            "debido a que las fechas para 2022 fueron hasta el día 10 de junio de 2022.\n\n",
+            "para regresar al menú principal por favor escriba la palabra *menú*"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_4":{
+        "replyMessage":[
+            "La Oficina de Admisiones Registro y Control Académico,",
+            "le informa a la comunidad universitaria que requiera tramitar certificados",
+            "que puede realizar los siguientes pasos:\n\n",
+            "*1.* Consultar el valor de los certificados de estudios,  notas , actas y otros, en la página web",
+            "https://www.utp.edu.co/registro/noticias/273/solicitud-de-certificados-de-estudios-y-de-notas",
+            "campo Tarifas para pregrado y posgrado\n\n",
+            "*2.* Realizar el pago en la caja FAVI UTP ubicada en la cafetería central en horario ",
+            "de lunes a viernes de 8:00 am a 1:00 pm y de 2:00 pm a 4:00 pm, y solicitar el certificado ",
+            "en la ventanilla 9 de Admisiones, Registro y Control de 8:00am a 12:00m y de 2:00pm a 5:00pm.\n\n",
+            "*3.* También puede realizar transferencia electrónica por el valor del tipo de certificado ",
+            "a la siguiente cuenta:\n",
+            "*Tipo de cuenta:* cuenta corriente\n",
+            "*Banco:* Davivienda\n",
+            "*Numero de cuenta:* 127369999603\n",
+            "*Titular:* UTP \n",
+            "*NIT:* 891480035\n",
+            "Enviar el comprobante de la transferencia a los correos electrónicos: \n\n",
+            "*certificadosacademicos@utp.edu.co* \n",
+            "*recaudos@utp.edu.co* \n\n",
+            "La solicitud por este medio puede tardar entre 48 y 72 horas después de enviar ",
+            "el comprobante de la transferencia, debido a la verificación del pago.\n\n",
+            "para regresar al menú principal por favor escriba la palabra *menú*"
+          
+        ],
+        "media":"",
+        "trigger":null
+    },
+    "STEP_5":{
+        "replyMessage":[
+            "Si desea conocer los contenidos de las asignaturas dictadas por el programa ",
+            "de ingeniería eléctrica de la universidad tecnológica de Pereira, puede acceder ",
+            "y descargar en el siguiente enlace: ",
+            "https://ingenierias.utp.edu.co/ingenieria-electrica/ficha_tecnica/plan\n\n",
+            "para regresar al menú principal por favor escriba la palabra *menú*"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_6":{
+        "replyMessage":[
+            "Si tiene inquietudes o requiere información relacionada con ",
+            "prácticas universitarias debe acercarse a la oficina: \n\n",
+            "Edificio Nº 1A / Of: 405, Universidad de Tecnológica de Pereira\n",
+            "también puede llamar al:\n",
+            "teléfono:  +57 (606) 3137115\n",
+            "conmutador: +57 (606) 3137300\n",
+            "Tambien puede comunicarse por medio del correo: practicas@utp.edu.co\n\n",
+            "para regresar al menú principal por favor escriba la palabra *menú*"
+        ],
+        "media":"",
+        "trigger":null
+    },
+    "STEP_7":{
+        "replyMessage":[
+            "En el momento se ha vencido las fechas para las cancelaciones, ",
+            "sin embargo en los próximos días estaremos dando información adicional.\n",
+            "Muchas gracias por su comprensión.\n\n",
+            "para regresar al menú principal por favor escriba la palabra *menú*"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_8":{
+        "replyMessage":[
+            "Para realizar solicitudes a cualquier dependencia de la universidad es ",
+            "importante radicarla presencial en la oficina de gestión de documentos ",
+            "(enseguida de carnetización ubicada en en el galpón) y llevar copia del documento ",
+            "a  radicar o enviar dicha solicitud al correo: lazos@utp.edu.co  donde también será ",
+            "radicada y se le envía de regreso a su correo el número de radicado.\n\n",
+            "para regresar al menú principal por favor escriba la palabra *menú*"
+        ],
+        "media":"",
+        "trigger":null
+    },
+    "STEP_9":{
+        "replyMessage":[
+            "Si desea conocer el reglamento estudiantil debe ingresar al siguiente enlace:\n",
+            "https://www2.utp.edu.co/secretaria/reglamentoestudiantil/listar/index\n\n",
+            "para regresar al menú principal por favor escriba la palabra *menú*"
+        ],
+        "media":"",
+        "trigger":null
+    }
+}
